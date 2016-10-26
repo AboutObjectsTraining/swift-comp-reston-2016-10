@@ -1,7 +1,8 @@
 import UIKit
 
 let defaultAppTextAttributes: [String: Any] = [
-    NSFontAttributeName: UIFont.boldSystemFont(ofSize: 18)
+    NSFontAttributeName: UIFont.boldSystemFont(ofSize: 18),
+    NSForegroundColorAttributeName: UIColor.white
 ]
 
 
