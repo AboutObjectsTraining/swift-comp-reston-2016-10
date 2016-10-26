@@ -18,7 +18,19 @@ class CoolViewController: UIViewController, UITextFieldDelegate
         return textField.resignFirstResponder()
     }
     
-    override func loadView() {
+    
+    func loadView3() {
+        Bundle.main.loadNibNamed("CoolStuff", owner: self, options: nil)
+    }
+    
+    func loadView2()
+    {
+        let topLevelObjs = Bundle.main.loadNibNamed("CoolStuff", owner: nil, options: nil)
+        guard let backgroundView = topLevelObjs?.first as? UIView else { return }
+        view = backgroundView
+    }
+    
+    func loadView1() {
         view = UIView(frame: UIScreen.main.bounds)
         view.backgroundColor = .brown
         
