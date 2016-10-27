@@ -2,7 +2,7 @@ import UIKit
 
 private let textOrigin = CGPoint(x: 8, y: 5)
 
-
+@IBDesignable
 class CoolView: UIView
 {
     override init(frame: CGRect) {
@@ -25,15 +25,34 @@ class CoolView: UIView
         layer.masksToBounds = true
     }
     
+    override func prepareForInterfaceBuilder() {
+        layer.masksToBounds = true
+        sizeToFit()
+    }
+    
     func configureGestureRecognizer() {
         let recognizer = UITapGestureRecognizer(target: self, action: #selector(animateBounce(recognizer:)))
         recognizer.numberOfTapsRequired = 2
         addGestureRecognizer(recognizer)
     }
     
-    var text: String?
+    @IBInspectable var borderWidth: CGFloat {
+        get { return layer.borderWidth }
+        set { layer.borderWidth = newValue }
+    }
     
-    var highlighted: Bool = false {
+    @IBInspectable var borderColor: UIColor {
+        get { return UIColor(cgColor: layer.borderColor ?? UIColor.clear.cgColor) }
+        set { layer.borderColor = newValue.cgColor }
+    }
+    
+    @IBInspectable var text: String? {
+        didSet {
+            sizeToFit()
+        }
+    }
+    
+    @IBInspectable var highlighted: Bool = false {
         didSet {
             alpha = highlighted ? 0.5 : 1.0
         }

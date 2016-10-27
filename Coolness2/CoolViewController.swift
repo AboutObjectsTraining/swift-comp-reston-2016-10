@@ -4,20 +4,19 @@ private let accessoryHeight = CGFloat(90)
 
 class CoolViewController: UIViewController, UITextFieldDelegate
 {
-    var contentView: UIView!
-    var textField: UITextField!
+    @IBOutlet var contentView: UIView!
+    @IBOutlet var textField: UITextField!
     
-    func addCoolView() {
+    @IBAction func addCoolView() {
         let newCoolView = CoolView()
         newCoolView.text = textField.text
         contentView.addSubview(newCoolView)
         newCoolView.sizeToFit()
     }
-    
+        
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         return textField.resignFirstResponder()
     }
-    
     
     func loadView3() {
         Bundle.main.loadNibNamed("CoolStuff", owner: self, options: nil)
