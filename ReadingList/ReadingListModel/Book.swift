@@ -12,8 +12,8 @@ let unknown = "unknown"
 
 open class Book: ModelObject
 {
-    open var title = ""
-    open var year = ""
+    open var title: String?
+    open var year: String?
     open var author: Author?
     
     open override var description: String {

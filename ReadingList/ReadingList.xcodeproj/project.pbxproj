@@ -13,6 +13,31 @@
 		3FBFEEA91DC276A1002C694E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEEA71DC276A1002C694E /* LaunchScreen.storyboard */; };
 		3FBFEEB41DC276A1002C694E /* ReadingListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEEB31DC276A1002C694E /* ReadingListTests.swift */; };
 		3FBFEEBF1DC2A863002C694E /* ReadingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEEBE1DC2A863002C694E /* ReadingListController.swift */; };
+		3FBFEEDA1DC2B4A1002C694E /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC11DC2B4A1002C694E /* Author.swift */; };
+		3FBFEEDB1DC2B4A1002C694E /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC21DC2B4A1002C694E /* Book.swift */; };
+		3FBFEEDC1DC2B4A1002C694E /* BooksAndAuthors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC31DC2B4A1002C694E /* BooksAndAuthors.plist */; };
+		3FBFEEDD1DC2B4A1002C694E /* Austen.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC51DC2B4A1002C694E /* Austen.png */; };
+		3FBFEEDE1DC2B4A1002C694E /* Bacon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC61DC2B4A1002C694E /* Bacon.png */; };
+		3FBFEEDF1DC2B4A1002C694E /* Carroll.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC71DC2B4A1002C694E /* Carroll.png */; };
+		3FBFEEE01DC2B4A1002C694E /* Dostoevsky.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC81DC2B4A1002C694E /* Dostoevsky.png */; };
+		3FBFEEE11DC2B4A1002C694E /* Eliot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEEC91DC2B4A1002C694E /* Eliot.png */; };
+		3FBFEEE21DC2B4A1002C694E /* Emerson.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEECA1DC2B4A1002C694E /* Emerson.png */; };
+		3FBFEEE31DC2B4A1002C694E /* Hemingway.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEECB1DC2B4A1002C694E /* Hemingway.png */; };
+		3FBFEEE41DC2B4A1002C694E /* Milne.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEECC1DC2B4A1002C694E /* Milne.png */; };
+		3FBFEEE51DC2B4A1002C694E /* More.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEECD1DC2B4A1002C694E /* More.png */; };
+		3FBFEEE61DC2B4A1002C694E /* Newton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEECE1DC2B4A1002C694E /* Newton.png */; };
+		3FBFEEE71DC2B4A1002C694E /* NoImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEECF1DC2B4A1002C694E /* NoImage.png */; };
+		3FBFEEE81DC2B4A1002C694E /* Shakespeare.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEED01DC2B4A1002C694E /* Shakespeare.png */; };
+		3FBFEEE91DC2B4A1002C694E /* Thoreau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEED11DC2B4A1002C694E /* Thoreau.jpg */; };
+		3FBFEEEA1DC2B4A1002C694E /* Tolstoy.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEED21DC2B4A1002C694E /* Tolstoy.png */; };
+		3FBFEEEB1DC2B4A1002C694E /* Twain.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEED31DC2B4A1002C694E /* Twain.png */; };
+		3FBFEEEC1DC2B4A1002C694E /* Wells.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEED41DC2B4A1002C694E /* Wells.png */; };
+		3FBFEEED1DC2B4A1002C694E /* Whitman.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FBFEED51DC2B4A1002C694E /* Whitman.png */; };
+		3FBFEEEE1DC2B4A1002C694E /* ModelObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEED61DC2B4A1002C694E /* ModelObject.swift */; };
+		3FBFEEEF1DC2B4A1002C694E /* ReadingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEED71DC2B4A1002C694E /* ReadingList.swift */; };
+		3FBFEEF01DC2B4A1002C694E /* ReadingListStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEED91DC2B4A1002C694E /* ReadingListStore.swift */; };
+		3FBFEEF21DC3A741002C694E /* ViewBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEEF11DC3A741002C694E /* ViewBookController.swift */; };
+		3FBFEEF41DC3B27D002C694E /* EditBookController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBFEEF31DC3B27D002C694E /* EditBookController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +61,32 @@
 		3FBFEEB31DC276A1002C694E /* ReadingListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingListTests.swift; sourceTree = "<group>"; };
 		3FBFEEB51DC276A1002C694E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FBFEEBE1DC2A863002C694E /* ReadingListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListController.swift; sourceTree = "<group>"; };
+		3FBFEEC11DC2B4A1002C694E /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
+		3FBFEEC21DC2B4A1002C694E /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		3FBFEEC31DC2B4A1002C694E /* BooksAndAuthors.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = BooksAndAuthors.plist; sourceTree = "<group>"; };
+		3FBFEEC51DC2B4A1002C694E /* Austen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Austen.png; sourceTree = "<group>"; };
+		3FBFEEC61DC2B4A1002C694E /* Bacon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bacon.png; sourceTree = "<group>"; };
+		3FBFEEC71DC2B4A1002C694E /* Carroll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Carroll.png; sourceTree = "<group>"; };
+		3FBFEEC81DC2B4A1002C694E /* Dostoevsky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dostoevsky.png; sourceTree = "<group>"; };
+		3FBFEEC91DC2B4A1002C694E /* Eliot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Eliot.png; sourceTree = "<group>"; };
+		3FBFEECA1DC2B4A1002C694E /* Emerson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Emerson.png; sourceTree = "<group>"; };
+		3FBFEECB1DC2B4A1002C694E /* Hemingway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hemingway.png; sourceTree = "<group>"; };
+		3FBFEECC1DC2B4A1002C694E /* Milne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Milne.png; sourceTree = "<group>"; };
+		3FBFEECD1DC2B4A1002C694E /* More.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = More.png; sourceTree = "<group>"; };
+		3FBFEECE1DC2B4A1002C694E /* Newton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Newton.png; sourceTree = "<group>"; };
+		3FBFEECF1DC2B4A1002C694E /* NoImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NoImage.png; sourceTree = "<group>"; };
+		3FBFEED01DC2B4A1002C694E /* Shakespeare.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shakespeare.png; sourceTree = "<group>"; };
+		3FBFEED11DC2B4A1002C694E /* Thoreau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Thoreau.jpg; sourceTree = "<group>"; };
+		3FBFEED21DC2B4A1002C694E /* Tolstoy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Tolstoy.png; sourceTree = "<group>"; };
+		3FBFEED31DC2B4A1002C694E /* Twain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twain.png; sourceTree = "<group>"; };
+		3FBFEED41DC2B4A1002C694E /* Wells.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Wells.png; sourceTree = "<group>"; };
+		3FBFEED51DC2B4A1002C694E /* Whitman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Whitman.png; sourceTree = "<group>"; };
+		3FBFEED61DC2B4A1002C694E /* ModelObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelObject.swift; sourceTree = "<group>"; };
+		3FBFEED71DC2B4A1002C694E /* ReadingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingList.swift; sourceTree = "<group>"; };
+		3FBFEED81DC2B4A1002C694E /* ReadingListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingListModel.h; sourceTree = "<group>"; };
+		3FBFEED91DC2B4A1002C694E /* ReadingListStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReadingListStore.swift; sourceTree = "<group>"; };
+		3FBFEEF11DC3A741002C694E /* ViewBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewBookController.swift; sourceTree = "<group>"; };
+		3FBFEEF31DC3B27D002C694E /* EditBookController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBookController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +110,7 @@
 		3FBFEE921DC276A1002C694E = {
 			isa = PBXGroup;
 			children = (
+				3FBFEEC01DC2B4A1002C694E /* ReadingListModel */,
 				3FBFEE9D1DC276A1002C694E /* ReadingList */,
 				3FBFEEB21DC276A1002C694E /* ReadingListTests */,
 				3FBFEE9C1DC276A1002C694E /* Products */,
@@ -79,6 +131,8 @@
 			children = (
 				3FBFEE9E1DC276A1002C694E /* AppDelegate.swift */,
 				3FBFEEBE1DC2A863002C694E /* ReadingListController.swift */,
+				3FBFEEF11DC3A741002C694E /* ViewBookController.swift */,
+				3FBFEEF31DC3B27D002C694E /* EditBookController.swift */,
 				3FBFEEA21DC276A1002C694E /* Main.storyboard */,
 				3FBFEEA51DC276A1002C694E /* Assets.xcassets */,
 				3FBFEEA71DC276A1002C694E /* LaunchScreen.storyboard */,
@@ -94,6 +148,45 @@
 				3FBFEEB51DC276A1002C694E /* Info.plist */,
 			);
 			path = ReadingListTests;
+			sourceTree = "<group>";
+		};
+		3FBFEEC01DC2B4A1002C694E /* ReadingListModel */ = {
+			isa = PBXGroup;
+			children = (
+				3FBFEEC11DC2B4A1002C694E /* Author.swift */,
+				3FBFEEC21DC2B4A1002C694E /* Book.swift */,
+				3FBFEEC31DC2B4A1002C694E /* BooksAndAuthors.plist */,
+				3FBFEEC41DC2B4A1002C694E /* Images */,
+				3FBFEED61DC2B4A1002C694E /* ModelObject.swift */,
+				3FBFEED71DC2B4A1002C694E /* ReadingList.swift */,
+				3FBFEED81DC2B4A1002C694E /* ReadingListModel.h */,
+				3FBFEED91DC2B4A1002C694E /* ReadingListStore.swift */,
+			);
+			path = ReadingListModel;
+			sourceTree = "<group>";
+		};
+		3FBFEEC41DC2B4A1002C694E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3FBFEEC51DC2B4A1002C694E /* Austen.png */,
+				3FBFEEC61DC2B4A1002C694E /* Bacon.png */,
+				3FBFEEC71DC2B4A1002C694E /* Carroll.png */,
+				3FBFEEC81DC2B4A1002C694E /* Dostoevsky.png */,
+				3FBFEEC91DC2B4A1002C694E /* Eliot.png */,
+				3FBFEECA1DC2B4A1002C694E /* Emerson.png */,
+				3FBFEECB1DC2B4A1002C694E /* Hemingway.png */,
+				3FBFEECC1DC2B4A1002C694E /* Milne.png */,
+				3FBFEECD1DC2B4A1002C694E /* More.png */,
+				3FBFEECE1DC2B4A1002C694E /* Newton.png */,
+				3FBFEECF1DC2B4A1002C694E /* NoImage.png */,
+				3FBFEED01DC2B4A1002C694E /* Shakespeare.png */,
+				3FBFEED11DC2B4A1002C694E /* Thoreau.jpg */,
+				3FBFEED21DC2B4A1002C694E /* Tolstoy.png */,
+				3FBFEED31DC2B4A1002C694E /* Twain.png */,
+				3FBFEED41DC2B4A1002C694E /* Wells.png */,
+				3FBFEED51DC2B4A1002C694E /* Whitman.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,9 +272,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBFEEDD1DC2B4A1002C694E /* Austen.png in Resources */,
+				3FBFEEDE1DC2B4A1002C694E /* Bacon.png in Resources */,
+				3FBFEEE61DC2B4A1002C694E /* Newton.png in Resources */,
+				3FBFEEDF1DC2B4A1002C694E /* Carroll.png in Resources */,
+				3FBFEEE31DC2B4A1002C694E /* Hemingway.png in Resources */,
+				3FBFEEE11DC2B4A1002C694E /* Eliot.png in Resources */,
 				3FBFEEA91DC276A1002C694E /* LaunchScreen.storyboard in Resources */,
+				3FBFEEE71DC2B4A1002C694E /* NoImage.png in Resources */,
+				3FBFEEE01DC2B4A1002C694E /* Dostoevsky.png in Resources */,
+				3FBFEEE91DC2B4A1002C694E /* Thoreau.jpg in Resources */,
 				3FBFEEA61DC276A1002C694E /* Assets.xcassets in Resources */,
+				3FBFEEEB1DC2B4A1002C694E /* Twain.png in Resources */,
+				3FBFEEE51DC2B4A1002C694E /* More.png in Resources */,
+				3FBFEEDC1DC2B4A1002C694E /* BooksAndAuthors.plist in Resources */,
+				3FBFEEE41DC2B4A1002C694E /* Milne.png in Resources */,
 				3FBFEEA41DC276A1002C694E /* Main.storyboard in Resources */,
+				3FBFEEE81DC2B4A1002C694E /* Shakespeare.png in Resources */,
+				3FBFEEED1DC2B4A1002C694E /* Whitman.png in Resources */,
+				3FBFEEEA1DC2B4A1002C694E /* Tolstoy.png in Resources */,
+				3FBFEEE21DC2B4A1002C694E /* Emerson.png in Resources */,
+				3FBFEEEC1DC2B4A1002C694E /* Wells.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FBFEEDB1DC2B4A1002C694E /* Book.swift in Sources */,
+				3FBFEEF01DC2B4A1002C694E /* ReadingListStore.swift in Sources */,
+				3FBFEEDA1DC2B4A1002C694E /* Author.swift in Sources */,
+				3FBFEEEF1DC2B4A1002C694E /* ReadingList.swift in Sources */,
 				3FBFEEBF1DC2A863002C694E /* ReadingListController.swift in Sources */,
+				3FBFEEF21DC3A741002C694E /* ViewBookController.swift in Sources */,
+				3FBFEEEE1DC2B4A1002C694E /* ModelObject.swift in Sources */,
+				3FBFEEF41DC3B27D002C694E /* EditBookController.swift in Sources */,
 				3FBFEE9F1DC276A1002C694E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
